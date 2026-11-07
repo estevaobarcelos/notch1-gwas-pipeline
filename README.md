@@ -295,4 +295,4 @@ MIT — see [LICENSE](LICENSE)
 ## Author
 
 **Estevão Barcelos**  
-[GitHub](https://github.com/YOUR_USERNAME) · [ORCID](https://orcid.org/YOUR_ORCID)
+[GitHub](https://github.com/estevaobarcelos) · [ORCID](https://orcid.org/0000-0001-7076-6165)
