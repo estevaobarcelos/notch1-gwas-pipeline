@@ -61,18 +61,6 @@ Excessive weight (BMI ≥ 25) is a highly prevalent condition associated with ca
 
 T allele frequency: cases = 0.4325 / controls = 0.3615
 
-### Figures
-
-| | |
-|---|---|
-| ![Forest plot](figures/rs9411207_complete_results.png) | ![Genetic models](figures/rs9411207_genetic_models.png) |
-| Forest plot — all logistic models + genotype distribution | Genetic model comparison (chi-square, unadjusted) |
-
-![Regional association plot](figures/regional_association_plot.png)
-*Regional association plot — NOTCH1 ± 50 kb, SABE cohort*
-
----
-
 ## Pipeline
 
 ```
