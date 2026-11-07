@@ -9,7 +9,7 @@
 
 Reproducible pipeline for the genetic association study of **NOTCH1 SNPs and excessive weight** in the SABE cohort (São Paulo, Brazil). This repository accompanies the published study:
 
-> Errera et al. (2024). *NOTCH1 single nucleotide polymorphisms are associated with excessive weight in a Brazilian cohort*. **Scientific Reports**. https://doi.org/10.1038/s41598-024-65771-1
+> Silva Barcelos et al. (2024). *NOTCH1 single nucleotide polymorphisms are associated with excessive weight in a Brazilian cohort*. **Scientific Reports**. https://doi.org/10.1038/s41598-024-65771-1
 
 ---
 
