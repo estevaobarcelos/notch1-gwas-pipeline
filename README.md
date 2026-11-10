@@ -267,10 +267,10 @@ Only 98 SNPs were available for PCA after LD pruning (focused NOTCH1 panel). Anc
 If you use this pipeline, please cite:
 
 ```bibtex
-@article{errera2024notch1,
+@article{barcelos2024notch1,
   title   = {NOTCH1 single nucleotide polymorphisms are associated with
              excessive weight in a Brazilian cohort},
-  author  = {Errera, ... and Barcelos, Estev{\~a}o and ...},
+  author  = {Barcelos, Estev{\~a}o and ... Errera},
   journal = {Scientific Reports},
   year    = {2024},
   doi     = {10.1038/s41598-024-65771-1}
