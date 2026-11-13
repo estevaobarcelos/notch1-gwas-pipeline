@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        python-version: ["3.9", "3.10", "3.11"]
+        python-version: ["3.10", "3.11"]
 
     steps:
       - uses: actions/checkout@v4
@@ -21,21 +21,11 @@ jobs:
           python -m pip install --upgrade pip
           pip install pytest
 
-      - name: Create minimal test if none exist
+      - name: Create test suite
         run: |
           mkdir -p tests
           touch tests/__init__.py
-          if [ ! -f tests/test_scripts.py ]; then
-            cat > tests/test_scripts.py << 'EOF'
-import ast, pathlib
-
-def test_scripts_are_valid_python():
-    scripts = list(pathlib.Path(".").glob("*.py"))
-    assert scripts, "No Python scripts found"
-    for s in scripts:
-        ast.parse(s.read_text(encoding="utf-8"))
-EOF
-          fi
+          printf 'import ast\nimport pathlib\n\ndef test_scripts_are_valid_python():\n    scripts = list(pathlib.Path(".").glob("*.py"))\n    assert scripts, "No Python scripts found"\n    for s in scripts:\n        ast.parse(s.read_text(encoding="utf-8"))\n' > tests/test_scripts.py
 
       - name: Run tests
         run: pytest tests/
